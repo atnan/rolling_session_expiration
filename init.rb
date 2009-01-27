@@ -1,1 +1,1 @@
-CGI::Session.send(:include, DynamicSessionExpiration)
+CGI::Session.send(:include, RollingSessionExpiration)
